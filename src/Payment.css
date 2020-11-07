@@ -1,0 +1,124 @@
+.payment {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__container > h1 a {
+  text-decoration: none;
+  color: darkorange;
+  transition: all 0.3s ease;
+}
+
+.payment__container > h1 a:hover {
+  color: red;
+}
+
+.checkoutProduct:last-child {
+  border-bottom: none !important;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8;
+}
+
+.payment__section:last-child {
+  border-bottom: none;
+}
+
+.emptyCart {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.emptyCart > img {
+  object-fit: contain;
+}
+
+.emptyCart p {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.emptyCart__container {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+}
+
+.emptyCartBtn {
+  background: linear-gradient(0deg, #ffc531, #fadb8e);
+  border-radius: 2px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.emptyCartBtn:hover {
+  background: linear-gradient(0deg, #ffbe1b, #f8d47a);
+}
+
+.emptyCartBtn:focus {
+  outline: orange;
+  box-shadow: 0 0 5px 2px rgba(236, 178, 30, 0.8);
+}
+
+.payment__details > form {
+  max-width: 400px;
+}
+
+.payment__details h3 {
+  padding-bottom: 13px;
+  padding-top: 8px;
+}
+
+.payment__details button {
+  background: linear-gradient(0deg, #ffc531, #fadb8e);
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  transition-duration: 0.1s;
+  font-weight: bolder;
+  cursor: pointer;
+  height: 30px;
+  width: 100%;
+}
+
+.payment__details button:hover {
+  background: linear-gradient(0deg, #ffbe1b, #f8d47a);
+}
+
+.payment__details button:focus {
+  outline: orange;
+  box-shadow: 0 0 5px 2px rgba(236, 178, 30, 0.8);
+}
+
+.payment__details button:disabled {
+  background: linear-gradient(0deg, #c5961f, #b8a77e);
+  cursor: not-allowed;
+}
